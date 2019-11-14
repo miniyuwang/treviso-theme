@@ -1,0 +1,452 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  line-height: 2em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+/* Layout */
+#header,
+#main,
+#footer {
+  margin: 0 auto;
+  width: 962px;
+}
+
+/* Header */
+
+/* Header > Header Top */
+.header-top {
+  background: #fff;
+  overflow: hidden;
+}
+
+/* Header > Header Top > Logo */
+.logo {
+  float: left;
+  height: 100px;
+}
+
+.logo a {
+  display: inline-block;
+  height: 33px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.logo span {
+  line-height: 100px;
+}
+
+/* Header > Header Top > Search */
+.search {
+  float: right;
+  padding-top: 39px;
+}
+
+.search form {
+  border: 1px solid #e5e5e5;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+  border: none;
+  padding-left: 14px;
+  width: 181px;
+  height: 26px;
+  line-height: 26px;
+  color: #8f8f8f;
+  background: #f1f1f1;
+}
+
+.submit {
+  float: right;
+  border: none;
+  width: 30px;
+  height: 26px;
+  background: #f1f1f1 url(../images/search.jpg) no-repeat center;
+}
+
+/* Header > Header Bottom */
+.header-bottom {
+  background: #2f2f2f;
+  overflow: hidden;
+}
+
+/* Header > Header Bottom > Nav */
+.nav li {
+  float: left;
+  width: 119px;
+  height: 58px;
+  text-align: center;
+}
+
+.nav li:not(:last-child) {
+  border-right: 1px solid #494949;
+}
+
+.nav li a {
+  font-size: 14px;
+  line-height: 58px;
+  color: #f7f7f7;
+}
+
+.nav li a:hover {
+  color: #c1c1c1;
+}
+
+/* Main */
+
+#main h2 {
+  padding-left: 1px;
+  font-size: 18px;
+  color: #262626;
+}
+
+#main a:hover, #footer a:hover {
+  color: #fe8c00;
+}
+
+/* Main > Banner */
+.banner {
+  height: 465px;
+}
+
+/* Main > Main Top */
+.main-top {
+  color: #4d4d4d;
+  overflow: hidden;
+}
+
+.main-top h2 {
+  height: 62px;
+  font-weight: normal;
+  line-height: 62px;
+}
+
+.main-top > div {
+  float: left;
+  padding-top: 13px;
+}
+
+/* Main > Main Top > News */
+.news {
+  padding-left: 1px;
+  padding-right: 28px;
+  width: 451px;
+  height: 227px;
+  background: #fff;
+}
+
+.news li {
+  overflow: hidden;
+}
+
+.news .list-icon {
+  float: left;
+  width: 3px;
+  height: 24px;
+  background: url(../images/list-icon.jpg) no-repeat left center;
+}
+
+.news a {
+  float: left;
+  margin-left: 10px;
+  color: #4d4d4d;
+}
+
+.news span {
+  float: right;
+  color: #909090;
+}
+
+/* Main > Main Top > Intro */
+.intro {
+  padding-left: 19px;
+  padding-right: 23px;
+  width: 198px;
+  height: 227px;
+  background: #f1f1f1;
+}
+
+.intro .content {
+  margin-top: 10px;
+}
+
+.intro .text-1 {
+  font-size: 14px;
+  line-height: 2em;
+  color: #515151;
+}
+
+.intro .text-2 {
+  color: #4e4e4e;
+}
+
+.intro .text-3 {
+  display: block;
+  margin-top: 15px;
+  color: #8e8e8e;
+}
+
+/* Main > Main Top > Recruit */
+.recruit {
+  padding-left: 24px;
+  width: 218px;
+  height: 227px;
+  background: #fbfbfb url(../images/horse.jpg) no-repeat right bottom;
+}
+
+.recruit .content {
+  margin-top: -1px;
+}
+
+.recruit .more {
+  margin-top: 22px;
+  width: 66px;
+  height: 19px;
+  text-align: center;
+  background: #b4b4b4;
+  border-radius: 2px;
+}
+
+.recruit .more:hover {
+  background: #9a9a9a;
+}
+
+.recruit .more a {
+  display: block;
+  font-size: 10px;
+  line-height: 19px;
+  color: #fdfdfd;
+}
+
+#main .recruit .more a:hover {
+  color: #fff;
+}
+
+/* Main > Main Bottom */
+
+/* Main > Main Bottom > Project */
+.project {
+  padding-top: 11px;
+  height: 294px;
+}
+
+.project h2 {
+  height: 54px;
+  font-weight: normal;
+  line-height: 54px;
+}
+
+.project .content {
+  overflow: hidden;
+}
+
+.project li {
+  float: left;
+}
+
+.project li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.project a {
+  color: #4d4d4d;
+}
+
+.project p {
+  padding: 12px 3px 0;
+  width: 204px;
+}
+
+/* Footer */
+
+/* Footer > Footer Top */
+.footer-top {
+  padding-top: 20px;
+  background: #e5e5e5;
+  overflow: hidden;
+}
+
+.footer-top > div {
+  float: left;
+}
+
+.footer-top > div:not(:last-child) {
+  margin-right: 50px;
+}
+
+.footer-top h2 {
+  border-bottom: 1px solid #c1c1c1;
+  padding-left: 12px;
+  height: 37px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 37px;
+  color: #595959;
+}
+
+.footer-top a {
+  color: #656565;
+}
+
+/* Footer > Footer Top > Product */
+.product {
+  float: left;
+  width: 452px;
+  height: 230px;
+  overflow: hidden;
+}
+
+.product .content,
+.technique .content {
+  margin-top: 15px;
+}
+
+.product .content {
+  overflow: hidden;
+}
+
+.product .content .item {
+  float: left;
+}
+
+.product .content .item.middle {
+  margin-left: 78px;
+  margin-right: 66px;
+}
+
+.product li,
+.technique li {
+  line-height: 24px;
+  overflow: hidden;
+}
+
+.rightward {
+  float: left;
+  padding-right: 15px;
+  width: 5px;
+  height: 24px;
+  background: url(../images/rightward.jpg) no-repeat 5px center;
+}
+
+.product a,
+.technique a {
+  float: left;
+}
+
+/* Footer > Footer Top > Technique */
+.technique {
+  float: left;
+  width: 153px;
+  height: 230px;
+}
+
+/* Footer > Footer Top > Marketing */
+.marketing {
+  float: left;
+  width: 256px;
+  height: 230px;
+}
+
+.marketing .content {
+  padding-top: 16px;
+  padding-left: 33px;
+  width: 223px;
+  height: 176px;
+}
+
+/* Footer > Footer Bottom */
+.footer-bottom {
+  height: 64.5px;
+  font-size: 11px;
+  line-height: 2em;
+  color: #9a9a9a;
+  background: #fff;
+  overflow: hidden;
+}
+
+.footer-bottom a {
+  color: #9a9a9a;
+}
+
+.footer-bottom > div {
+  float: left;
+}
+
+/* Footer > Footer Bottom > Helper */
+.helper {
+  padding-top: 17.5px;
+  padding-left: 2px;
+  font-size: 0;
+}
+
+.helper a {
+  font-size: 11px;
+}
+
+.helper span {
+  display: inline-block;
+  padding: 0 6px 0;
+  font-size: 11px;
+}
+
+/* Footer > Footer Bottom > Copyright */
+.copyright {
+  margin-left: 127px;
+  padding-top: 17.5px;
+  font-size: 11px;
+  line-height: 2em;
+}
+
+/* Footer > Footer Bottom > Sharing */
+.sharing {
+  margin-left: 16px;
+  padding-top: 17.5px;
+  height: 22px;
+  font-size: 0;
+}
+
+.sharing span {
+  font-size: 11px;
+  line-height: 22px;
+}
+
+.sharing a {
+  display: inline-block;
+  height: 22px;
+  font-size: 11px;
+}
+
+.sharing a:not(:last-child) {
+  margin-right: 7px;
+}
+
+.sharing a img {
+  vertical-align: sub;
+}
+
+.sharing a span {
+  line-height: 22px;
+}
